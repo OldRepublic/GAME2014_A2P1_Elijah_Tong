@@ -433,6 +433,7 @@ GameObject:
   - component: {fileID: 514160113}
   - component: {fileID: 514160112}
   - component: {fileID: 514160111}
+  - component: {fileID: 514160114}
   m_Layer: 5
   m_Name: Next_Button
   m_TagString: Untagged
@@ -502,7 +503,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 514160112}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 514160114}
+        m_TargetAssemblyTypeName: Next_Button_Instruction_Screen1_Script, Assembly-CSharp
+        m_MethodName: OnNext_Button_Instruction_Screen1_ScriptPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &514160112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,6 +554,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514160109}
   m_CullTransparentMesh: 0
+--- !u!114 &514160114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514160109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc796cfdb829bb043a83582278837dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1509,6 +1534,7 @@ GameObject:
   - component: {fileID: 2069362022}
   - component: {fileID: 2069362021}
   - component: {fileID: 2069362020}
+  - component: {fileID: 2069362023}
   m_Layer: 5
   m_Name: Back_Button
   m_TagString: Untagged
@@ -1578,7 +1604,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2069362021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2069362023}
+        m_TargetAssemblyTypeName: Back_Button_Instruction_Screen1_Script, Assembly-CSharp
+        m_MethodName: OnBack_Button_Instruction_Screen_Script1Pressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2069362021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1617,3 +1655,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069362018}
   m_CullTransparentMesh: 0
+--- !u!114 &2069362023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069362018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d60144a37e79ba48bf1621d5ab4e368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
