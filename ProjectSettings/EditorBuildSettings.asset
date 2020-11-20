@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Instructions_Screen.unity
     guid: 483ccea190d53fc4897dcfc7b0a555ba
   - enabled: 1
+    path: Assets/Scenes/Instructions_Screen_2.unity
+    guid: a9c7ea5334c431740a6d0795beb66374
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: f4fec04e65749b24b94859d9ea63590c
+  - enabled: 1
+    path: Assets/Scenes/Pause_Menu.unity
+    guid: d87fc67bae076904e8b533288f02b217
   - enabled: 1
     path: Assets/Scenes/GameOver_Screen.unity
     guid: 3475df93313881e489cfc63993d35b16
